@@ -1,3 +1,2 @@
 ﻿  main.cpp
-c:\users\chris\source\repos\opengl-c--test\opengl\opengl render engine\main.cpp(44): warning C4715: 'wWinMain': not all control paths return a value
   opengl render engine.vcxproj -> C:\Users\Chris\source\repos\opengl-c--test\openGL\Debug\opengl render engine.exe

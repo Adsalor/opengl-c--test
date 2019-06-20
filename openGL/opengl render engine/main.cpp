@@ -2,6 +2,7 @@
 #define UNICODE
 #endif 
 #include <Windows.h>
+#include <iostream>
 
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {
 	return (DefWindowProc(hwnd, uMsg, wParam, lParam));
@@ -34,11 +35,13 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int nCmdShow
 		hInstance,  // Instance handle
 		NULL        // Additional application data
 	);
+	while (true) {
+		if (hwnd == NULL)
+		{
+			std::cin.get();
+			return 0;
+		}
 
-	if (hwnd == NULL)
-	{
-		return 0;
+		ShowWindow(hwnd, nCmdShow);
 	}
-
-	ShowWindow(hwnd, nCmdShow);
 }
