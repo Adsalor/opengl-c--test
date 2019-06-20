@@ -3,7 +3,9 @@
 #endif 
 #include <Windows.h>
 
-LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
+LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {
+	return (DefWindowProc(hwnd, uMsg, wParam, lParam));
+};
 
 int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int nCmdShow) {
 	const wchar_t CLASS_NAME[] = L"Sample Window Class";

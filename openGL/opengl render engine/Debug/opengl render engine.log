@@ -1,4 +1,3 @@
 ﻿  main.cpp
-c:\users\chris\source\repos\opengl-c--test\opengl\opengl render engine\main.cpp(42): warning C4715: 'wWinMain': not all control paths return a value
-main.obj : error LNK2019: unresolved external symbol "long __stdcall WindowProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WindowProc@@YGJPAUHWND__@@IIJ@Z) referenced in function _wWinMain@16
-C:\Users\Chris\source\repos\opengl-c--test\openGL\Debug\opengl render engine.exe : fatal error LNK1120: 1 unresolved externals
+c:\users\chris\source\repos\opengl-c--test\opengl\opengl render engine\main.cpp(44): warning C4715: 'wWinMain': not all control paths return a value
+  opengl render engine.vcxproj -> C:\Users\Chris\source\repos\opengl-c--test\openGL\Debug\opengl render engine.exe
