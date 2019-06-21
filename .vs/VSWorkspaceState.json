@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\openGL",
+    "\\openGL\\opengl render engine"
   ],
+  "SelectedNode": "\\openGL\\openGL.sln",
   "PreviewInSolutionExplorer": false
 }
