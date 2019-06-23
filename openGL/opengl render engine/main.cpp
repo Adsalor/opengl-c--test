@@ -39,8 +39,8 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int nCmdShow
 	HWND hwnd = CreateWindowEx(
 		0,                              // Optional window styles.
 		CLASS_NAME,                     // Window class
-		L"uoqwivyetngoewqr",    // Window text
-		WS_OVERLAPPEDWINDOW,            // Window style
+		L"uoqwivyetngoewqr",            // Window text
+		CS_OWNDC|WS_OVERLAPPEDWINDOW,   // Window style
 
 		// Size and position
 		CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT,
